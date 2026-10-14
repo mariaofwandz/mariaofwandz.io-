@@ -372,17 +372,18 @@
         </div>
         <div class="book-grid">
           <form action="https://formspree.io/f/mqpeywzb" method="POST">
-            <label>Name <input type="text" name="name" required></label>
+            <label>Full name, Date of Birth and country <input type="text" name="name" required></label>
             <label>Email <input type="email" name="email" required></label>
             <label>Reading
               <select name="reading">
+                <option>Text Reading, 10 min (€60)</option>
                 <option>Text Reading, 20 min (€80)</option>
                 <option>Extended Text Reading, 45 min (€100)</option>
                 <option>Deep-Dive Text Reading, 1 hour (€150)</option>
                 <option>Live Video Reading, 1 hour, FaceTime/Zoom (€180)</option>
               </select>
             </label>
-            <label>Preferred times <textarea name="times" placeholder="For example: weekday evenings, or Saturday afternoon"></textarea></label>
+            <label>Preferred date and times (your local time) <textarea name="times" placeholder="For example: 21st of December at 4:00PM GMT"></textarea></label>
             <button class="btn" type="submit">Send request</button>
           </form>
 
